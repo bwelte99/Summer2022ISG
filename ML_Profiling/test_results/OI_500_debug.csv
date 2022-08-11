@@ -1,0 +1,32 @@
+Profile Summary,,,,,,,,,
+Generated on: 2022-07-15 12:10:08,,,,,,,,,
+XRT build version: 2.8.0,,,,,,,,,
+Build version branch: 2020.2,,,,,,,,,
+Build version hash: f19a872233fbfe2eb933f25fa3d9a780ced774e5,,,,,,,,,
+Build version date: 2020-11-15 11:20:06,,,,,,,,,
+Target devices: vck190_base_trd_platform1,,,,,,,,,
+,,,,,,,,,
+DPU Summary,,,,,,,,,
+Kernel Name,Number Of Runs,CU Full Name,Minimum Time (ms),Average Time (ms),Maximum Time (ms),Workload(GOP),DPU Performance(GOP/s),Mem IO(MB),Mem Bandwidth(MB/s)
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ConvBatchNormBlock_conv1__Conv2d_conv_layer__input_2,1,DPUCVDX8G:batch-3,0.906,0.906,0.906,1.336,1474.56,14.659,16179.497
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResIdentityBlock_res_block_2a__Sequential_H__ConvBatchNormBlock_conv_bn_0__Conv2d_conv_layer__input_4,1,DPUCVDX8G:batch-3,0.485,0.485,0.485,2.548,5253.69,8.884,18318.12
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResIdentityBlock_res_block_2a__181,1,DPUCVDX8G:batch-3,0.776,0.776,0.776,2.548,3283.556,15.52,19999.753
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResIdentityBlock_res_block_2b__Sequential_H__ConvBatchNormBlock_conv_bn_0__Conv2d_conv_layer__input_8,1,DPUCVDX8G:batch-3,0.466,0.466,0.466,2.548,5467.896,8.884,19064.996
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResIdentityBlock_res_block_2b__215,1,DPUCVDX8G:batch-3,0.768,0.768,0.768,2.548,3317.76,15.52,20208.083
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_3a__Sequential_H__ConvBatchNormBlock_conv_bn_0__Conv2d_conv_layer__input_12,1,DPUCVDX8G:batch-3,0.567,0.567,0.567,3.539,6241.524,7.946,14014.758
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_3a__Sequential_H__ConvBatchNormBlock_conv_bn_1__Conv2d_conv_layer__input_14,1,DPUCVDX8G:batch-3,0.404,0.404,0.404,2.548,6307.029,4.571,11315.01
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_3a__264,1,DPUCVDX8G:batch-3,0.57,0.57,0.57,3.539,6208.674,11.347,19907.144
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_4a__Sequential_H__ConvBatchNormBlock_conv_bn_0__Conv2d_conv_layer__input_17,1,DPUCVDX8G:batch-3,0.678,0.678,0.678,3.539,5219.681,4.69,6917.664
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_4a__Sequential_H__ConvBatchNormBlock_conv_bn_1__Conv2d_conv_layer__input_19,1,DPUCVDX8G:batch-3,0.532,0.532,0.532,2.548,4789.548,2.802,5266.767
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_4a__313,1,DPUCVDX8G:batch-3,0.659,0.659,0.659,3.539,5370.173,6.432,9760.243
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_5a__Sequential_H__ConvBatchNormBlock_conv_bn_0__Conv2d_conv_layer__input_22,1,DPUCVDX8G:batch-3,0.426,0.426,0.426,1.769,4153.69,3.436,8065.202
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_5a__Sequential_H__ConvBatchNormBlock_conv_bn_1__Conv2d_conv_layer__input_24,1,DPUCVDX8G:batch-3,0.197,0.197,0.197,0.637,3233.553,1.143,5802.234
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ResConvBlock_res_block_5a__362,1,DPUCVDX8G:batch-3,0.428,0.428,0.428,1.769,4134.28,3.933,9190.28
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_Conv2d_conv6__409,1,DPUCVDX8G:batch-3,0.379,0.379,0.379,0.283,747.007,2.692,7103.831
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ConvBatchNormBlock_conv6_7__Conv2d_conv_layer__input_28,1,DPUCVDX8G:batch-3,0.324,0.324,0.324,1.274,3932.16,2.23,6883.951
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_Conv2d_conv7__473,1,DPUCVDX8G:batch-3,0.545,0.545,0.545,0.283,519.478,5.27,9669.05
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ConvBatchNormBlock_conv7_8__Conv2d_conv_layer__input_31,1,DPUCVDX8G:batch-3,0.299,0.299,0.299,1.274,4260.936,3.945,13192.348
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_Conv2d_conv8__537,1,DPUCVDX8G:batch-3,1,1,1,0.283,283.116,10.51,10510.4
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_ConvBatchNormBlock_conv8_9__Conv2d_conv_layer__input_34,1,DPUCVDX8G:batch-3,0.395,0.395,0.395,1.274,3225.367,7.76,19645.327
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_Conv2d_conv9__input,1,DPUCVDX8G:batch-3,0.198,0.198,0.198,0.004,22.342,3.387,17106.111
+subgraph_BrtResnetPyramid4x__BrtResnetPyramid4x_Interpolate_unpool9__601,1,DPUCVDX8G:batch-3,2.143,2.143,2.143,0,0,1.313,612.823
